@@ -1,9 +1,6 @@
-def formu(n):
+def f14(n):
    if (n==0):
        return 3
    else:
-       c = ((1/74)*(formu((n-1))**2))-(1/6)*(formu(n-1))
+       c = ((1/74)*(f14((n-1))**2))-(1/6)*(f14(n-1))
        return c
-n=int(input(''))
-c=formu(n)
-print('%.2e'%(c))

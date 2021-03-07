@@ -1,6 +1,5 @@
-
 import math
-def formu(n,m):
+def f13(n,m):
     sum1=0
     sum2=0
     for i in range(n):
@@ -10,7 +9,3 @@ def formu(n,m):
         sum2+=math.fabs(i+1)-(i+1)
     c=70*sum1-8*sum2
     return(c)
-n=int(input(''))
-m=int(input(''))
-c=formu(n,m)
-print('%.2e'%(c))
